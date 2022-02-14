@@ -1,0 +1,17 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 200px;
+  font-size: 35px;
+}
+
+p {
+  background-color: aqua;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+}

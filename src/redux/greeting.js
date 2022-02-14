@@ -3,10 +3,10 @@ const LOAD_GREETING = "helloRailsFrontEnd/greeting/LOAD_GREETING";
 const initialState = [];
 
 const reducer = (state = initialState, action) => {
-  const {type} = action;
+  const {type, payload} = action;
   switch (type) {
-    case LOAD_GREETING:
-      return "something";
+    case LOAD_GREETING:      
+      return [...state, payload.title]
     default:
       return state;
   }

@@ -4,6 +4,7 @@
 - API created with [ruby on rails](https://github.com/ahmetbozaci/hello-rails-backendv2)
 - Page shows random greeting from API that include 5 different greeting.
   
+![screenshot](screenshot.png)
 ## Built With
 
 - React
